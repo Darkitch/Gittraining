@@ -7,7 +7,6 @@ int main() {
     scanf("%d", &n);
 
     printf("Fibonacci Series:\n");
-
     for (c = 0; c < n; c++) {
         if (c <= 1)
             next = c;
@@ -19,6 +18,5 @@ int main() {
         printf("%d ", next);
     }
     printf("\n");
-
     return 0;
 }
